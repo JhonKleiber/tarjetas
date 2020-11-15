@@ -1,0 +1,92 @@
+/* -------------------------- Estilos Generales -------------------------- */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6em;
+    background-color: #121212;
+    color: #ececec;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ececec;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+header, nav, main {
+    margin: 60px 0;
+}
+/* -------------------------------- Menu -------------------------------- */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li a {
+    color: #00adb5;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.boton {
+    background-color: transparent;
+    border: 2px solid #00adb5;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: #00adb5;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #00adb5;
+    color: #fcfcfc;
+}
+
+.boton:focus {
+    outline: none;
+}
+/* ------------------------------ Tarjetas ------------------------------ */
+.contenedor {
+    text-align: center;
+    margin: 0 auto;
+    width: 330px;
+    height:430px;
+    border: 1px solid darkgray;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #222831;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor p, .contenedor h4, .contenedor a {
+    margin: 10px 20px;
+}
+
+.contenedor img {
+    width: 100%;
+}
+.contenedor a {
+    text-decoration: none;
+    color: #00adb5;
+}
+.contenedor:hover {
+    box-shadow: 0 12px 16px rgba(255, 255, 255, 0.3);
+}
+
+.contenedor a:hover {
+    text-decoration: underline;
+}
